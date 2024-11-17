@@ -124,7 +124,8 @@ namespace Microsoft.Xna.Framework.Graphics
 			IntPtr data,
 			uint dataSizeBytes,
 			Effect effect
-		) {
+		)
+		{
 			if (data == IntPtr.Zero)
 			{
 				throw new ArgumentNullException("data");
@@ -157,7 +158,8 @@ namespace Microsoft.Xna.Framework.Graphics
 			IntPtr data,
 			uint dataSizeBytes,
 			Effect effect
-		) {
+		)
+		{
 			if (data == IntPtr.Zero)
 			{
 				throw new ArgumentNullException("data");
@@ -610,7 +612,7 @@ namespace Microsoft.Xna.Framework.Graphics
 			{
 				unsafe
 				{
-					float *dstPtr = (float*) values;
+					float* dstPtr = (float*) values;
 					*dstPtr = (float) value;
 				}
 			}
@@ -839,7 +841,15 @@ namespace Microsoft.Xna.Framework.Graphics
 		{
 			// FIXME: All Matrix sizes... this will get ugly. -flibit
 #if DEBUG
-			value.CheckForNaNs();
+			// (WCS Edit) If throwed assign it identity matrix.
+			try
+			{
+				value.CheckForNaNs();
+			}
+			catch
+			{
+				value = Matrix.Identity;
+			}
 #endif
 			unsafe
 			{

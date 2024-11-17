@@ -32,28 +32,31 @@ namespace Microsoft.Xna.Framework.Graphics
 		/// <summary>
 		/// Gets the index of this bone in the Bones collection.
 		/// </summary>
+		// (WCS Edit) This internal set accessor is converted to public.
 		public int Index
 		{
 			get;
-			internal set;
+			set;
 		}
 
 		/// <summary>
 		/// Gets the name of this bone.
 		/// </summary>
+		// (WCS Edit) This internal set accessor is converted to public.
 		public string Name
 		{
 			get;
-			internal set;
+			set;
 		}
 
 		/// <summary>
 		/// Gets the parent of this bone.
 		/// </summary>
+		// (WCS Edit) This internal set accessor is converted to public.
 		public ModelBone Parent
 		{
 			get;
-			internal set;
+			set;
 		}
 
 		/// <summary>
@@ -77,7 +80,8 @@ namespace Microsoft.Xna.Framework.Graphics
 
 		#region Internal Constructor
 
-		internal ModelBone()
+		// (WCS Edit) This internal constructor is converted internal accessor to public.
+		public ModelBone()
 		{
 			Children = new ModelBoneCollection(new List<ModelBone>());
 			meshes = new List<ModelMesh>();
@@ -87,12 +91,13 @@ namespace Microsoft.Xna.Framework.Graphics
 
 		#region Internal Methods
 
-		internal void AddMesh(ModelMesh mesh)
+		// (WCS Edit) These internal methods are converted internal accessor to public.
+		public void AddMesh(ModelMesh mesh)
 		{
 			meshes.Add(mesh);
 		}
 
-		internal void AddChild(ModelBone modelBone)
+		public void AddChild(ModelBone modelBone)
 		{
 			children.Add(modelBone);
 			Children = new ModelBoneCollection(children);

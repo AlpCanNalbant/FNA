@@ -23,10 +23,11 @@ namespace Microsoft.Xna.Framework.Graphics
 		/// <summary>
 		/// Gets the BoundingSphere that contains this mesh.
 		/// </summary>
+		// (WCS Edit) This internal set accessor is converted to public.
 		public BoundingSphere BoundingSphere
 		{
 			get;
-			internal set;
+			set;
 		}
 
 		/// <summary>
@@ -51,10 +52,11 @@ namespace Microsoft.Xna.Framework.Graphics
 		/// <summary>
 		/// Gets the name of this mesh.
 		/// </summary>
+		// (WCS Edit) This internal set accessor is converted to public.
 		public string Name
 		{
 			get;
-			internal set;
+			set;
 		}
 
 		/// <summary>
@@ -62,10 +64,11 @@ namespace Microsoft.Xna.Framework.Graphics
 		/// transformation matrix that describes how the mesh is located relative to
 		/// any parent meshes in a model.
 		/// </summary>
+		// (WCS Edit) This internal set accessor is converted to public.
 		public ModelBone ParentBone
 		{
 			get;
-			internal set;
+			set;
 		}
 
 		/// <summary>
@@ -87,7 +90,8 @@ namespace Microsoft.Xna.Framework.Graphics
 
 		#region Internal Constructor
 
-		internal ModelMesh(GraphicsDevice graphicsDevice, List<ModelMeshPart> parts)
+		// (WCS Edit) This internal constructor is converted internal accessor to public.
+		public ModelMesh(GraphicsDevice graphicsDevice, List<ModelMeshPart> parts)
 		{
 			// TODO: Complete member initialization
 			this.graphicsDevice = graphicsDevice;

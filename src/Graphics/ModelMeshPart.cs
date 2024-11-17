@@ -61,37 +61,41 @@ namespace Microsoft.Xna.Framework.Graphics
 		/// <summary>
 		/// Gets the index buffer for this mesh part.
 		/// </summary>
+		// (WCS Edit) This internal set accessor is converted to public.
 		public IndexBuffer IndexBuffer
 		{
 			get;
-			internal set;
+			set;
 		}
 
 		/// <summary>
 		/// Gets the number of vertices used during a draw call.
 		/// </summary>
+		// (WCS Edit) This internal set accessor is converted to public.
 		public int NumVertices
 		{
 			get;
-			internal set;
+			set;
 		}
 
 		/// <summary>
 		/// Gets the number of primitives to render.
 		/// </summary>
+		// (WCS Edit) This internal set accessor is converted to public.
 		public int PrimitiveCount
 		{
 			get;
-			internal set;
+			set;
 		}
 
 		/// <summary>
 		/// Gets the location in the index array at which to start reading vertices.
 		/// </summary>
+		// (WCS Edit) This internal set accessor is converted to public.
 		public int StartIndex
 		{
 			get;
-			internal set;
+			set;
 		}
 
 		/// <summary>
@@ -106,19 +110,21 @@ namespace Microsoft.Xna.Framework.Graphics
 		/// <summary>
 		/// Gets the vertex buffer for this mesh part.
 		/// </summary>
+		// (WCS Edit) This internal set accessor is converted to public.
 		public VertexBuffer VertexBuffer
 		{
 			get;
-			internal set;
+			set;
 		}
 
 		/// <summary>
 		/// Gets the offset (in vertices) from the top of vertex buffer.
 		/// </summary>
+		// (WCS Edit) This internal set accessor is converted to public.
 		public int VertexOffset
 		{
 			get;
-			internal set;
+			set;
 		}
 
 		#endregion
@@ -137,7 +143,8 @@ namespace Microsoft.Xna.Framework.Graphics
 
 		#region Internal Constructor
 
-		internal ModelMeshPart()
+		// (WCS Edit) This internal constructor is converted internal accessor to public.
+		public ModelMeshPart()
 		{
 		}
 
