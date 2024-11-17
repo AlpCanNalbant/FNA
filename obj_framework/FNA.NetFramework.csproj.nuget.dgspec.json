@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\entel\\WindchimeSoftware\\KeepLocker\\deps\\EndGame\\ThirdParty\\FNA\\FNA.NetFramework.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\entel\\WindchimeSoftware\\KeepLocker\\deps\\EndGame\\ThirdParty\\FNA\\FNA.NetFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\entel\\WindchimeSoftware\\KeepLocker\\deps\\EndGame\\ThirdParty\\FNA\\FNA.NetFramework.csproj",
+        "projectName": "FNA",
+        "projectPath": "c:\\Users\\entel\\WindchimeSoftware\\KeepLocker\\deps\\EndGame\\ThirdParty\\FNA\\FNA.NetFramework.csproj",
+        "packagesPath": "C:\\Users\\entel\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\entel\\WindchimeSoftware\\KeepLocker\\deps\\EndGame\\ThirdParty\\FNA\\obj_framework\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\entel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net4.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "targetAlias": "net4.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "targetAlias": "net4.0",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

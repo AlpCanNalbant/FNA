@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Microsoft.Xna.Framework
+build_property.ProjectDir = c:\Users\entel\WindchimeSoftware\KeepLocker\deps\EndGame\ThirdParty\FNA\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
