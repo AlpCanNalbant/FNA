@@ -13,7 +13,7 @@ using System.IO;
 using Microsoft.Xna.Framework.Audio;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal class SoundEffectReader : ContentTypeReader<SoundEffect>
 	{

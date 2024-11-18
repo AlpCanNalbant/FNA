@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 #endregion
 
-namespace Microsoft.Xna.Framework.Audio
+namespace FNA.Audio
 {
 	// http://msdn.microsoft.com/en-us/library/microsoft.xna.framework.audio.dynamicsoundeffectinstance.aspx
 	public sealed class DynamicSoundEffectInstance : SoundEffectInstance

@@ -12,7 +12,7 @@ using System;
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework.Input
+namespace FNA.Input
 {
 	/// <summary>
 	/// Allows getting keystrokes from keyboard.

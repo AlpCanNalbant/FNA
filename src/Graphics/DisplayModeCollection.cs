@@ -16,7 +16,7 @@ using System.Collections;
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	public class DisplayModeCollection : IEnumerable<DisplayMode>, IEnumerable
 	{

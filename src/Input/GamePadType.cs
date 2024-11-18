@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework.Input
+namespace FNA.Input
 {
 	/// <summary>
 	/// Defines a type of gamepad.

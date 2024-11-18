@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// Defines the different tangent types to be calculated for <see cref="CurveKey"/> points in a <see cref="Curve"/>.

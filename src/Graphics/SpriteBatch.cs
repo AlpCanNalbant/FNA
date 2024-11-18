@@ -14,7 +14,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	/* MSDN Docs:
 	 * http://msdn.microsoft.com/en-us/library/microsoft.xna.framework.graphics.spritebatch.aspx

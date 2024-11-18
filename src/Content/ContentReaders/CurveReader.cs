@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal class CurveReader : ContentTypeReader<Curve>
 	{
@@ -49,4 +49,3 @@ namespace Microsoft.Xna.Framework.Content
 		#endregion
 	}
 }
-

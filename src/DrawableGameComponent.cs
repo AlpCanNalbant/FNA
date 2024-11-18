@@ -13,7 +13,7 @@ using System;
 using Microsoft.Xna.Framework.Graphics;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	public class DrawableGameComponent : GameComponent, IDrawable
 	{

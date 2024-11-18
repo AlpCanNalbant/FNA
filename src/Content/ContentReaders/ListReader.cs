@@ -16,7 +16,7 @@ using System;
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal class ListReader<T> : ContentTypeReader<List<T>>
 	{

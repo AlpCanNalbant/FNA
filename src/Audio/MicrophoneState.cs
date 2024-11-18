@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework.Audio
+namespace FNA.Audio
 {
 	public enum MicrophoneState
 	{

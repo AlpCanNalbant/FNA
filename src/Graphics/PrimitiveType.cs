@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	/// <summary>
 	/// Defines how vertex data is ordered.

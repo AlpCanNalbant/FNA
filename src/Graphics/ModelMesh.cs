@@ -11,7 +11,7 @@
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	/// <summary>
 	/// Represents a mesh that is part of a Model.

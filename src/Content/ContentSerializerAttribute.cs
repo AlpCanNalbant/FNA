@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	[AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
 	public sealed class ContentSerializerAttribute : Attribute

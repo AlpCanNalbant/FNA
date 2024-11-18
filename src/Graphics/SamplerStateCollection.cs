@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	public sealed class SamplerStateCollection
 	{

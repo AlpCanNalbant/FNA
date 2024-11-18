@@ -12,7 +12,7 @@ using System.Collections;
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	public sealed class EffectParameterCollection : IEnumerable<EffectParameter>, IEnumerable
 	{

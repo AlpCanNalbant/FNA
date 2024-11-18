@@ -13,7 +13,7 @@ using System.Collections;
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework.Input.Touch
+namespace FNA.Input.Touch
 {
 	// https://msdn.microsoft.com/en-us/library/microsoft.xna.framework.input.touch.touchcollection.aspx
 	public struct TouchCollection : IList<TouchLocation>, ICollection<TouchLocation>, IEnumerable<TouchLocation>, IEnumerable

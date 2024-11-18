@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal class DoubleReader : ContentTypeReader<double>
 	{
@@ -31,4 +31,3 @@ namespace Microsoft.Xna.Framework.Content
 		#endregion
 	}
 }
-

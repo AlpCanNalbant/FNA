@@ -7,7 +7,7 @@
 //-----------------------------------------------------------------------------
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
     /// <summary>
     /// The default effect used by SpriteBatch.

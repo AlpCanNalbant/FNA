@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework.Input
+namespace FNA.Input
 {
 	/// <summary>
 	/// Represents a mouse state with cursor position and button press information.

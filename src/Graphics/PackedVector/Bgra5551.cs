@@ -11,10 +11,10 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics.PackedVector
+namespace FNA.Graphics.PackedVector
 {
 	/// <summary>
-	/// Packed vector type containing unsigned normalized values ranging from 0 to 1. 
+	/// Packed vector type containing unsigned normalized values ranging from 0 to 1.
 	/// The x and z components use 5 bits, and the y component uses 6 bits.
 	/// </summary>
 	public struct Bgra5551 : IPackedVector<ushort>, IEquatable<Bgra5551>, IPackedVector

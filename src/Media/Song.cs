@@ -12,7 +12,7 @@ using System;
 using System.IO;
 #endregion
 
-namespace Microsoft.Xna.Framework.Media
+namespace FNA.Media
 {
 	public sealed class Song : IEquatable<Song>, IDisposable
 	{
@@ -118,7 +118,7 @@ namespace Microsoft.Xna.Framework.Media
 
 		#region Public Comparison Methods/Operators
 
-		public bool Equals(Song song) 
+		public bool Equals(Song song)
 		{
 			return (((object) song) != null) && (handle == song.handle);
 		}

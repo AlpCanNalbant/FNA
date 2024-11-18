@@ -15,7 +15,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// Contains commonly used precalculated values and mathematical operations.

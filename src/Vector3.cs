@@ -20,7 +20,7 @@ using System.Text;
 using Microsoft.Xna.Framework.Design;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// Describes a 3D-vector.

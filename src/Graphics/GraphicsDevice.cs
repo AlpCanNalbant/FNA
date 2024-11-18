@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	public class GraphicsDevice : IDisposable
 	{
@@ -283,7 +283,7 @@ namespace Microsoft.Xna.Framework.Graphics
 
 		#region Private Disposal Variables
 
-		/* 
+		/*
 		 * Use weak GCHandles for the global resources list as we do not
 		 * know when a resource may be disposed and collected. We do not
 		 * want to prevent a resource from being collected by holding a
@@ -1568,7 +1568,7 @@ namespace Microsoft.Xna.Framework.Graphics
 				);
 			}
 
-			for (int sampler = 0; sampler < modifiedVertexSamplers.Length; sampler += 1) 
+			for (int sampler = 0; sampler < modifiedVertexSamplers.Length; sampler += 1)
 			{
 				if (!modifiedVertexSamplers[sampler])
 				{

@@ -14,7 +14,7 @@ using System.Collections.ObjectModel;
 using System.Runtime.InteropServices;
 #endregion
 
-namespace Microsoft.Xna.Framework.Audio
+namespace FNA.Audio
 {
 	// http://msdn.microsoft.com/en-us/library/dd940262.aspx
 	public class AudioEngine : IDisposable

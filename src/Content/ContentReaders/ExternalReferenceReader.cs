@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	/// <summary>
 	/// External reference reader, provided for compatibility with XNA Framework built content

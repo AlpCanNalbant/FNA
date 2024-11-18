@@ -12,7 +12,7 @@ using System;
 using System.Threading;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	public class OcclusionQuery : GraphicsResource
 	{

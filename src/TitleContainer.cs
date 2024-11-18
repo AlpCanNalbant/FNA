@@ -23,7 +23,7 @@ using System;
 using System.IO;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	public static class TitleContainer
 	{
@@ -143,4 +143,3 @@ namespace Microsoft.Xna.Framework
 		#endregion
 	}
 }
-

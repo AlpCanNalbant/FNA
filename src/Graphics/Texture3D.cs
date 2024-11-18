@@ -12,7 +12,7 @@ using System;
 using System.Runtime.InteropServices;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	public class Texture3D : Texture
 	{

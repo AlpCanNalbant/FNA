@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// The arguments to the <see cref="GraphicsDeviceManager.PreparingDeviceSettings"/> event.

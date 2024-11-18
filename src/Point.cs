@@ -19,7 +19,7 @@ using System.ComponentModel;
 using Microsoft.Xna.Framework.Design;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// Describes a 2D-point.

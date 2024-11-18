@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	/// <summary>
 	/// Represents a set of bones associated with a model.

@@ -15,7 +15,7 @@ using System.Diagnostics;
 using Microsoft.Xna.Framework.Graphics;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal class EffectMaterialReader : ContentTypeReader<EffectMaterial>
 	{

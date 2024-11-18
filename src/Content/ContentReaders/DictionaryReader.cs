@@ -12,7 +12,7 @@ using System;
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal class DictionaryReader<TKey, TValue> : ContentTypeReader<Dictionary<TKey, TValue>>
 	{
@@ -103,4 +103,3 @@ namespace Microsoft.Xna.Framework.Content
 		#endregion
 	}
 }
-

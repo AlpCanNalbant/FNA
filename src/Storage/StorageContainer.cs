@@ -12,7 +12,7 @@ using System;
 using System.IO;
 #endregion
 
-namespace Microsoft.Xna.Framework.Storage
+namespace FNA.Storage
 {
 	/// <summary>
 	/// Contains a logical collection of files used for user-data storage.

@@ -16,7 +16,7 @@ using System;
 using System.Globalization;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	[Serializable]
 	public class DisplayMode

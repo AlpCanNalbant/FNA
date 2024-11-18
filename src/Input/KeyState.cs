@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework.Input
+namespace FNA.Input
 {
 	/// <summary>
 	/// Identifies the state of a keyboard key.

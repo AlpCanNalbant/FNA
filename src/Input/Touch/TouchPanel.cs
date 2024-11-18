@@ -12,7 +12,7 @@ using System;
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework.Input.Touch
+namespace FNA.Input.Touch
 {
 	// https://msdn.microsoft.com/en-us/library/microsoft.xna.framework.input.touch.touchpanel.aspx
 	public static class TouchPanel

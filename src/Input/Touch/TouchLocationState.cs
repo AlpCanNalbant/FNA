@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework.Input.Touch
+namespace FNA.Input.Touch
 {
 	// https://msdn.microsoft.com/en-us/library/microsoft.xna.framework.input.touch.touchlocationstate.aspx
 	public enum TouchLocationState

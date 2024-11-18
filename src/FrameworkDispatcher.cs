@@ -15,7 +15,7 @@ using Microsoft.Xna.Framework.Input.Touch;
 using MediaPlayer = Microsoft.Xna.Framework.Media.MediaPlayer;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	public static class FrameworkDispatcher
 	{

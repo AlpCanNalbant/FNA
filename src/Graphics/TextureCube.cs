@@ -13,7 +13,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	public class TextureCube : Texture
 	{

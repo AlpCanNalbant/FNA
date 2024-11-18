@@ -14,7 +14,7 @@ using System.IO;
 using Microsoft.Xna.Framework.Graphics;
 #endregion
 
-namespace Microsoft.Xna.Framework.Media
+namespace FNA.Media
 {
 	public sealed class Video
 	{
@@ -141,7 +141,7 @@ namespace Microsoft.Xna.Framework.Media
 		#endregion
 
 		#region Public Extensions
-		
+
 		public static Video FromUriEXT(Uri uri, GraphicsDevice graphicsDevice)
 		{
 			string path;

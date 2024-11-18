@@ -11,7 +11,7 @@
 using System.IO;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	internal static class X360TexUtil
 	{

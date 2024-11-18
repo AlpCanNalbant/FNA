@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	public interface IUpdateable
 	{

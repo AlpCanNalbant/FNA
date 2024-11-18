@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework.Audio
+namespace FNA.Audio
 {
 	[Serializable]
 	public struct RendererDetail
@@ -59,7 +59,7 @@ namespace Microsoft.Xna.Framework.Audio
 		{
 			return FriendlyName;
 		}
-		
+
 		#endregion
 
 		#region Public Static Operator Overloads

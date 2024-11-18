@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	/// <summary>
 	/// The comparison function used for depth, stencil, and alpha tests.

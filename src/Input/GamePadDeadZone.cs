@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework.Input
+namespace FNA.Input
 {
 	/// <summary>
 	/// Specifies a type of dead zone processing to apply to the controllers analog sticks when

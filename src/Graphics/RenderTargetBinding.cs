@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	// RenderTargetBinding structure: http://msdn.microsoft.com/en-us/library/ff434403.aspx
 	public struct RenderTargetBinding

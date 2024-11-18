@@ -21,7 +21,7 @@ using Microsoft.Xna.Framework.Design;
 using Microsoft.Xna.Framework.Graphics.PackedVector;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// Describes a 32-bit packed color.

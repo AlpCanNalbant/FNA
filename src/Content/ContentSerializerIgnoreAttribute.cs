@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	/* http://msdn.microsoft.com/en-us/library/bb195465.aspx
 	 * The class definition on msdn site shows: [AttributeUsageAttribute(384)]

@@ -12,7 +12,7 @@ using System;
 using System.Collections.ObjectModel;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	public sealed class GameComponentCollection : Collection<IGameComponent>
 	{

@@ -12,7 +12,7 @@ using System;
 using System.Diagnostics;
 #endregion
 
-namespace Microsoft.Xna.Framework.Media
+namespace FNA.Media
 {
 	public static class MediaPlayer
 	{
@@ -68,7 +68,7 @@ namespace Microsoft.Xna.Framework.Media
 			}
 		}
 
-		public static MediaQueue Queue 
+		public static MediaQueue Queue
 		{
 			get;
 			private set;

@@ -16,7 +16,7 @@ using System;
 using System.IO;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	public abstract class ContentTypeReader
 	{

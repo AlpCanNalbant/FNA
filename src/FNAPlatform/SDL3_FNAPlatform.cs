@@ -22,7 +22,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Input.Touch;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	internal static unsafe class SDL3_FNAPlatform
 	{

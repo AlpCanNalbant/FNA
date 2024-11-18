@@ -13,7 +13,7 @@
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	public class LaunchParameters : Dictionary<string, string>
 	{

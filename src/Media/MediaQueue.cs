@@ -12,7 +12,7 @@ using System;
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework.Media
+namespace FNA.Media
 {
 	public sealed class MediaQueue
 	{

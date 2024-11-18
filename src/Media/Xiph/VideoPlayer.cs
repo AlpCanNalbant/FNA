@@ -16,7 +16,7 @@ using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 #endregion
 
-namespace Microsoft.Xna.Framework.Media
+namespace FNA.Media
 {
 	public sealed class VideoPlayer : IDisposable
 	{

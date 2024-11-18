@@ -11,7 +11,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// Defines how the <see cref="Curve"/> value is determined for position before first point or after the end point on the <see cref="Curve"/>.

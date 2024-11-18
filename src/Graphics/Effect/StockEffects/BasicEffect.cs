@@ -7,7 +7,7 @@
 //-----------------------------------------------------------------------------
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
     /// <summary>
     /// Built-in effect that supports optional texturing, vertex coloring, fog, and lighting.
@@ -72,7 +72,7 @@ namespace Microsoft.Xna.Framework.Graphics
         public Matrix World
         {
             get { return world; }
-            
+
             set
             {
                 world = value;
@@ -87,7 +87,7 @@ namespace Microsoft.Xna.Framework.Graphics
         public Matrix View
         {
             get { return view; }
-            
+
             set
             {
                 view = value;
@@ -102,7 +102,7 @@ namespace Microsoft.Xna.Framework.Graphics
         public Matrix Projection
         {
             get { return projection; }
-            
+
             set
             {
                 projection = value;
@@ -117,7 +117,7 @@ namespace Microsoft.Xna.Framework.Graphics
         public Vector3 DiffuseColor
         {
             get { return diffuseColor; }
-            
+
             set
             {
                 diffuseColor = value;
@@ -132,7 +132,7 @@ namespace Microsoft.Xna.Framework.Graphics
         public Vector3 EmissiveColor
         {
             get { return emissiveColor; }
-            
+
             set
             {
                 emissiveColor = value;
@@ -167,7 +167,7 @@ namespace Microsoft.Xna.Framework.Graphics
         public float Alpha
         {
             get { return alpha; }
-            
+
             set
             {
                 alpha = value;
@@ -182,7 +182,7 @@ namespace Microsoft.Xna.Framework.Graphics
         public bool LightingEnabled
         {
             get { return lightingEnabled; }
-            
+
             set
             {
                 if (lightingEnabled != value)
@@ -200,7 +200,7 @@ namespace Microsoft.Xna.Framework.Graphics
         public bool PreferPerPixelLighting
         {
             get { return preferPerPixelLighting; }
-            
+
             set
             {
                 if (preferPerPixelLighting != value)
@@ -218,7 +218,7 @@ namespace Microsoft.Xna.Framework.Graphics
         public Vector3 AmbientLightColor
         {
             get { return ambientLightColor; }
-            
+
             set
             {
                 ambientLightColor = value;
@@ -251,7 +251,7 @@ namespace Microsoft.Xna.Framework.Graphics
         public bool FogEnabled
         {
             get { return fogEnabled; }
-            
+
             set
             {
                 if (fogEnabled != value)
@@ -269,7 +269,7 @@ namespace Microsoft.Xna.Framework.Graphics
         public float FogStart
         {
             get { return fogStart; }
-            
+
             set
             {
                 fogStart = value;
@@ -284,7 +284,7 @@ namespace Microsoft.Xna.Framework.Graphics
         public float FogEnd
         {
             get { return fogEnd; }
-            
+
             set
             {
                 fogEnd = value;
@@ -309,7 +309,7 @@ namespace Microsoft.Xna.Framework.Graphics
         public bool TextureEnabled
         {
             get { return textureEnabled; }
-            
+
             set
             {
                 if (textureEnabled != value)
@@ -337,7 +337,7 @@ namespace Microsoft.Xna.Framework.Graphics
         public bool VertexColorEnabled
         {
             get { return vertexColorEnabled; }
-            
+
             set
             {
                 if (vertexColorEnabled != value)
@@ -460,7 +460,7 @@ namespace Microsoft.Xna.Framework.Graphics
         {
             // Recompute the world+view+projection matrix or fog vector?
             dirtyFlags = EffectHelpers.SetWorldViewProjAndFog(dirtyFlags, ref world, ref view, ref projection, ref worldView, fogEnabled, fogStart, fogEnd, worldViewProjParam, fogVectorParam);
-            
+
             // Recompute the diffuse/emissive/alpha material color parameters?
             if ((dirtyFlags & EffectDirtyFlags.MaterialColor) != 0)
             {
@@ -473,10 +473,10 @@ namespace Microsoft.Xna.Framework.Graphics
             {
                 // Recompute the world inverse transpose and eye position?
                 dirtyFlags = EffectHelpers.SetLightingMatrices(dirtyFlags, ref world, ref view, worldParam, worldInverseTransposeParam, eyePositionParam);
-                
+
                 // Check if we can use the only-bother-with-the-first-light shader optimization.
                 bool newOneLight = !light1.Enabled && !light2.Enabled;
-                
+
                 if (oneLight != newOneLight)
                 {
                     oneLight = newOneLight;
@@ -488,13 +488,13 @@ namespace Microsoft.Xna.Framework.Graphics
             if ((dirtyFlags & EffectDirtyFlags.ShaderIndex) != 0)
             {
                 int shaderIndex = 0;
-                
+
                 if (!fogEnabled)
                     shaderIndex += 1;
-                
+
                 if (vertexColorEnabled)
                     shaderIndex += 2;
-                
+
                 if (textureEnabled)
                     shaderIndex += 4;
 

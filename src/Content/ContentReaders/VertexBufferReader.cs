@@ -15,7 +15,7 @@
 using Microsoft.Xna.Framework.Graphics;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	class VertexBufferReader : ContentTypeReader<VertexBuffer>
 	{

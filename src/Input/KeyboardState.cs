@@ -11,7 +11,7 @@
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework.Input
+namespace FNA.Input
 {
 	/// <summary>
 	/// Holds the state of keystrokes by a keyboard.

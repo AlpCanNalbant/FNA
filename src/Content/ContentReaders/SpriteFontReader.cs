@@ -17,7 +17,7 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework.Graphics;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal class SpriteFontReader : ContentTypeReader<SpriteFont>
 	{

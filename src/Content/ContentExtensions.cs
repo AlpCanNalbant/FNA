@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal static class ContentExtensions
 	{

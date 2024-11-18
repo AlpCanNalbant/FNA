@@ -12,7 +12,7 @@ using System;
 using System.ComponentModel;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/* This class exists because the XNA window handle is an abstract class.
 	 *
@@ -180,4 +180,3 @@ namespace Microsoft.Xna.Framework
 		#endregion
 	}
 }
-

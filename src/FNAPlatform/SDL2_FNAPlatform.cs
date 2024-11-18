@@ -22,7 +22,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Input.Touch;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	internal static class SDL2_FNAPlatform
 	{
@@ -1239,7 +1239,7 @@ namespace Microsoft.Xna.Framework
 					}
 				}
 
-				else if (evt.type == SDL.SDL_EventType.SDL_TEXTEDITING) 
+				else if (evt.type == SDL.SDL_EventType.SDL_TEXTEDITING)
 				{
 					int bytes = MeasureStringLength(evt.edit.text);
 					if (bytes > 0)

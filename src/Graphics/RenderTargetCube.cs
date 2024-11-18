@@ -12,7 +12,7 @@ using System;
 using System.Threading;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	/// <summary>
 	/// Represents a texture cube that can be used as a render target.

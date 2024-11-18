@@ -16,7 +16,7 @@ using System;
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	public class GameServiceContainer : IServiceProvider
 	{

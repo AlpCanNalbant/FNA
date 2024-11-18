@@ -15,7 +15,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// Contains a collection of <see cref="CurveKey"/> points in 2D space and provides methods for evaluating features of the curve they define.
@@ -149,7 +149,7 @@ namespace Microsoft.Xna.Framework
 						 * Start-> end / end -> start...
 						 */
 						cycle = GetNumberOfCycle(position);
-						
+
 						if (0 == cycle % 2f)
 						{
 							virtualPos = position - (cycle * (last.Position - first.Position));

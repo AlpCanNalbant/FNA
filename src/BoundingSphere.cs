@@ -20,7 +20,7 @@ using System.Diagnostics;
 using Microsoft.Xna.Framework.Design;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// Describes a sphere in 3D-space for bounding operations.
@@ -424,7 +424,7 @@ namespace Microsoft.Xna.Framework
 				max = maxz;
 				min = minz;
 			}
-			
+
 			Vector3 center = (min + max) * 0.5f;
 			float radius = Vector3.Distance(max, center);
 

@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	public interface IGameComponent
 	{

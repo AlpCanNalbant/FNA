@@ -11,7 +11,7 @@
 using Microsoft.Xna.Framework.Graphics;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal class TextureReader : ContentTypeReader<Texture>
 	{

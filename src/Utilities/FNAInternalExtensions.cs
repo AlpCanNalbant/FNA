@@ -13,7 +13,7 @@ using System.IO;
 using System.Reflection;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	internal static class FNAInternalExtensions
 	{

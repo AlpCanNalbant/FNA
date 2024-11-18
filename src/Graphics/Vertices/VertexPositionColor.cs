@@ -12,7 +12,7 @@ using System;
 using System.Runtime.InteropServices;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	[Serializable]
 	[StructLayout(LayoutKind.Sequential, Pack = 1)]

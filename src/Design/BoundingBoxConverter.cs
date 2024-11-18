@@ -14,7 +14,7 @@ using System.ComponentModel;
 using System.Globalization;
 #endregion
 
-namespace Microsoft.Xna.Framework.Design
+namespace FNA.Design
 {
 	public class BoundingBoxConverter : MathTypeConverter
 	{

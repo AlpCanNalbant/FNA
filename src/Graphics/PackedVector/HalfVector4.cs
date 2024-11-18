@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics.PackedVector
+namespace FNA.Graphics.PackedVector
 {
 	/// <summary>
 	/// Packed vector type containing four 16-bit floating-point values.

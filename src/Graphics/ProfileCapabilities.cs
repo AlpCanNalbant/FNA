@@ -12,7 +12,7 @@ using System;
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	internal class ProfileCapabilities
 	{
@@ -340,7 +340,7 @@ namespace Microsoft.Xna.Framework.Graphics
 				" " + obj2.ToString() // FIXME: WTF?
 			);
 		}
-		
+
 		#endregion
 
 		#region Internal Static Methods

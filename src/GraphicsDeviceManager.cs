@@ -14,7 +14,7 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework.Graphics;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	public class GraphicsDeviceManager : IGraphicsDeviceService, IDisposable, IGraphicsDeviceManager
 	{

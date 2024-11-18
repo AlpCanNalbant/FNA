@@ -20,7 +20,7 @@ using System.Diagnostics;
 using Microsoft.Xna.Framework.Design;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	[Serializable]
 	[TypeConverter(typeof(BoundingBoxConverter))]

@@ -18,7 +18,7 @@ using System.IO;
 using Microsoft.Xna.Framework.Graphics;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal class Texture2DReader : ContentTypeReader<Texture2D>
 	{

@@ -13,7 +13,7 @@ using Microsoft.Xna.Framework.Graphics;
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	public static class FNALoggerEXT
 	{

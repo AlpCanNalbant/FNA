@@ -13,7 +13,7 @@ using System.IO;
 using System.Threading;
 #endregion
 
-namespace Microsoft.Xna.Framework.Storage
+namespace FNA.Storage
 {
 	/// <summary>
 	/// Exposes a storage device for storing user data.

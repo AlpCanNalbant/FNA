@@ -13,7 +13,7 @@ using System.Collections.Generic;
 using System.Reflection;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal class ReflectiveReader<T> : ContentTypeReader
 	{
@@ -129,7 +129,7 @@ namespace Microsoft.Xna.Framework.Content
 					obj = (T) constructor.Invoke(null);
 				}
 			}
-		
+
 			if (baseTypeReader != null)
 			{
 				baseTypeReader.Read(input, obj);

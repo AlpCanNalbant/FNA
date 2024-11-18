@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	/// <summary>
 	/// This is used to specify the XML element name to use for each item in a collection.
@@ -46,4 +46,3 @@ namespace Microsoft.Xna.Framework.Content
 		#endregion
 	}
 }
-

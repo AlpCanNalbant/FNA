@@ -11,7 +11,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal class PlaneReader : ContentTypeReader<Plane>
 	{

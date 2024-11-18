@@ -14,7 +14,7 @@ using System.Collections.ObjectModel;
 using System.Text;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	// http://msdn.microsoft.com/en-us/library/microsoft.xna.framework.graphics.spritefont.aspx
 	public sealed class SpriteFont

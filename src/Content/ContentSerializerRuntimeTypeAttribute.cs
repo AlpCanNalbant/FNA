@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	/// <summary>
 	/// This is used to specify the type to use when deserializing this object at runtime.

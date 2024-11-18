@@ -13,8 +13,8 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
-{	
+namespace FNA.Graphics
+{
 	public abstract class GraphicsResource : IDisposable
 	{
 		#region Public Properties

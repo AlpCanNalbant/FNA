@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	public class DepthStencilState : GraphicsResource
 	{
@@ -53,7 +53,7 @@ namespace Microsoft.Xna.Framework.Graphics
 			}
 		}
 
-		public StencilOperation CounterClockwiseStencilFail	
+		public StencilOperation CounterClockwiseStencilFail
 		{
 			get
 			{
@@ -65,7 +65,7 @@ namespace Microsoft.Xna.Framework.Graphics
 			}
 		}
 
-		public CompareFunction CounterClockwiseStencilFunction	
+		public CompareFunction CounterClockwiseStencilFunction
 		{
 			get
 			{
@@ -77,7 +77,7 @@ namespace Microsoft.Xna.Framework.Graphics
 			}
 		}
 
-		public StencilOperation CounterClockwiseStencilPass	
+		public StencilOperation CounterClockwiseStencilPass
 		{
 			get
 			{
@@ -89,7 +89,7 @@ namespace Microsoft.Xna.Framework.Graphics
 			}
 		}
 
-		public CompareFunction DepthBufferFunction	
+		public CompareFunction DepthBufferFunction
 		{
 			get
 			{
@@ -101,7 +101,7 @@ namespace Microsoft.Xna.Framework.Graphics
 			}
 		}
 
-		public int ReferenceStencil	
+		public int ReferenceStencil
 		{
 			get
 			{
@@ -113,7 +113,7 @@ namespace Microsoft.Xna.Framework.Graphics
 			}
 		}
 
-		public StencilOperation StencilDepthBufferFail	
+		public StencilOperation StencilDepthBufferFail
 		{
 			get
 			{
@@ -125,7 +125,7 @@ namespace Microsoft.Xna.Framework.Graphics
 			}
 		}
 
-		public bool StencilEnable	
+		public bool StencilEnable
 		{
 			get
 			{
@@ -137,7 +137,7 @@ namespace Microsoft.Xna.Framework.Graphics
 			}
 		}
 
-		public StencilOperation StencilFail	
+		public StencilOperation StencilFail
 		{
 			get
 			{
@@ -149,7 +149,7 @@ namespace Microsoft.Xna.Framework.Graphics
 			}
 		}
 
-		public CompareFunction StencilFunction	
+		public CompareFunction StencilFunction
 		{
 			get
 			{
@@ -161,7 +161,7 @@ namespace Microsoft.Xna.Framework.Graphics
 			}
 		}
 
-		public int StencilMask	
+		public int StencilMask
 		{
 			get
 			{
@@ -173,7 +173,7 @@ namespace Microsoft.Xna.Framework.Graphics
 			}
 		}
 
-		public StencilOperation StencilPass	
+		public StencilOperation StencilPass
 		{
 			get
 			{
@@ -185,7 +185,7 @@ namespace Microsoft.Xna.Framework.Graphics
 			}
 		}
 
-		public int StencilWriteMask	
+		public int StencilWriteMask
 		{
 			get
 			{
@@ -197,7 +197,7 @@ namespace Microsoft.Xna.Framework.Graphics
 			}
 		}
 
-		public bool TwoSidedStencilMode	
+		public bool TwoSidedStencilMode
 		{
 			get
 			{

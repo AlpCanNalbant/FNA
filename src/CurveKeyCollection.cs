@@ -17,7 +17,7 @@ using System.Collections;
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// The collection of the <see cref="CurveKey"/> elements and a part of the <see cref="Curve"/> class.

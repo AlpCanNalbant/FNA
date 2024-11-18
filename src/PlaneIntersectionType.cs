@@ -11,7 +11,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// Defines the intersection between a <see cref="Plane"/> and a bounding volume.

@@ -12,7 +12,7 @@ using System;
 using System.Collections.ObjectModel;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	public sealed class GraphicsAdapter
 	{

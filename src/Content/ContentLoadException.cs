@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	public class ContentLoadException : Exception
 	{
@@ -32,4 +32,3 @@ namespace Microsoft.Xna.Framework.Content
 		#endregion
 	}
 }
-

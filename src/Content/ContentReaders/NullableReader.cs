@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal class NullableReader<T> : ContentTypeReader<T?> where T : struct
 	{

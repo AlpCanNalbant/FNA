@@ -12,7 +12,7 @@ using System;
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework.Input.Touch
+namespace FNA.Input.Touch
 {
 	internal static class GestureDetector
 	{
@@ -28,7 +28,7 @@ namespace Microsoft.Xna.Framework.Input.Touch
 		 * it would still dispatch a PinchComplete gesture once *all*
 		 * fingers were off the screen. (Not just the ones involved
 		 * in the pinch.) Kinda weird, right?
-		 * 
+		 *
 		 * This flag is used to mimic that behavior.
 		 */
 		private static bool callBelatedPinchComplete = false;
@@ -491,13 +491,13 @@ namespace Microsoft.Xna.Framework.Input.Touch
 					 * acceleration spikes. This works pretty well,
 					 * but on rare occasions the velocity will still
 					 * spike by an order of magnitude.
-					 * 
+					 *
 					 * In practice this tends to be a non-issue, but
 					 * if you *really* need to avoid any spikes, you
 					 * may want to consider normalizing the delta
 					 * reported in the GestureSample and then scaling it
 					 * to min(actualVectorLength, preferredMaxLength).
-					 * 
+					 *
 					 * -caleb
 					 */
 
@@ -629,12 +629,12 @@ namespace Microsoft.Xna.Framework.Input.Touch
 			 * simultaneous deltas at an OS level. We don't have that
 			 * luxury, so instead, each Pinch gesture will contain the
 			 * delta information for just _one_ of the fingers.
-			 * 
+			 *
 			 * In practice what this means is that you'll get twice as
 			 * many Pinch gestures added to the queue (one sample for
 			 * each finger). This doesn't matter too much, though,
 			 * since the resulting behavior is identical to XNA.
-			 * 
+			 *
 			 * -caleb
 			 */
 

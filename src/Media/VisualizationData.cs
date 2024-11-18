@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 #endregion
 
-namespace Microsoft.Xna.Framework.Media
+namespace FNA.Media
 {
 	public class VisualizationData
 	{

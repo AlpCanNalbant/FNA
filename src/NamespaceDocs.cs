@@ -5,7 +5,7 @@
  * See LICENSE for details.
  */
 
-namespace Microsoft.Xna.Framework.Input
+namespace FNA.Input
 {
 	/// <summary>
 	/// Provides functionality to handle input from keyboards, mice, gamepads, etc.
@@ -16,7 +16,7 @@ namespace Microsoft.Xna.Framework.Input
 	}
 }
 
-namespace Microsoft.Xna.Framework.Audio
+namespace FNA.Audio
 {
 	/// <summary>
 	/// Support for playing sound effects and XACT audio.
@@ -27,7 +27,7 @@ namespace Microsoft.Xna.Framework.Audio
 	}
 }
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	/// <summary>
 	/// The runtime support for loading content pipeline content.

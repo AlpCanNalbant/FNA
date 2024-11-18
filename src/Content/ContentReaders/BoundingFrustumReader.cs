@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal class BoundingFrustumReader : ContentTypeReader<BoundingFrustum>
 	{

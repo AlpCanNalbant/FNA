@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics.PackedVector
+namespace FNA.Graphics.PackedVector
 {
 	public struct NormalizedShort2 : IPackedVector<uint>, IEquatable<NormalizedShort2>
 	{

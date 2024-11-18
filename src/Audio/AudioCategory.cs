@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework.Audio
+namespace FNA.Audio
 {
 	// http://msdn.microsoft.com/en-us/library/microsoft.xna.framework.audio.audiocategory.aspx
 	public struct AudioCategory : IEquatable<AudioCategory>

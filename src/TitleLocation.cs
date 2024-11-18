@@ -11,7 +11,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	internal static class TitleLocation
 	{
@@ -28,4 +28,3 @@ namespace Microsoft.Xna.Framework
 		#endregion
 	}
 }
-

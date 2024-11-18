@@ -11,7 +11,7 @@
 using Microsoft.Xna.Framework.Graphics;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal class VertexDeclarationReader : ContentTypeReader<VertexDeclaration>
 	{
@@ -51,4 +51,3 @@ namespace Microsoft.Xna.Framework.Content
 		#endregion
 	}
 }
-

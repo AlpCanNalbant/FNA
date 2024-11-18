@@ -19,7 +19,7 @@ using System.Reflection;
 using System.Text.RegularExpressions;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	public sealed class ContentTypeReaderManager
 	{

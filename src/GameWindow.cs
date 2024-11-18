@@ -14,7 +14,7 @@ using System.ComponentModel;
 using Microsoft.Xna.Framework.Input;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	public abstract class GameWindow
 	{
@@ -22,7 +22,7 @@ namespace Microsoft.Xna.Framework
 
 		[DefaultValue(false)]
 		public abstract bool AllowUserResizing
-		{ 
+		{
 			get;
 			set;
 		}

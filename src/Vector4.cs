@@ -19,7 +19,7 @@ using System.Diagnostics;
 using Microsoft.Xna.Framework.Design;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// Describes a 4D-vector.

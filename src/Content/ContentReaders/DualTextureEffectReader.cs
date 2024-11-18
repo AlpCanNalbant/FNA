@@ -11,7 +11,7 @@
 using Microsoft.Xna.Framework.Graphics;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	class DualTextureEffectReader : ContentTypeReader<DualTextureEffect>
 	{
@@ -33,4 +33,3 @@ namespace Microsoft.Xna.Framework.Content
 		#endregion
 	}
 }
-

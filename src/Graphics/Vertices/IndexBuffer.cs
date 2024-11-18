@@ -13,7 +13,7 @@ using System.Threading;
 using System.Runtime.InteropServices;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	public class IndexBuffer : GraphicsResource
 	{
@@ -314,7 +314,7 @@ namespace Microsoft.Xna.Framework.Graphics
 		#endregion
 
 		#region Private Type Size Calculator
-		
+
 		/// <summary>
 		/// Gets the relevant IndexElementSize enum value for the given type.
 		/// </summary>

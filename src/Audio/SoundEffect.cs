@@ -14,7 +14,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 #endregion
 
-namespace Microsoft.Xna.Framework.Audio
+namespace FNA.Audio
 {
 	// http://msdn.microsoft.com/en-us/library/microsoft.xna.framework.audio.soundeffect.aspx
 	public sealed class SoundEffect : IDisposable
@@ -611,11 +611,11 @@ namespace Microsoft.Xna.Framework.Audio
 					ReverbVoice = IntPtr.Zero;
 					FNAPlatform.Free(reverbSends.pSends);
 				}
-				if (MasterVoice != IntPtr.Zero) 
+				if (MasterVoice != IntPtr.Zero)
 				{
 					FAudio.FAudioVoice_DestroyVoice(MasterVoice);
 				}
-				if (Handle != IntPtr.Zero) 
+				if (Handle != IntPtr.Zero)
 				{
 					FAudio.FAudio_Release(Handle);
 				}

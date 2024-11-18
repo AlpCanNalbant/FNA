@@ -11,7 +11,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// Defines how the bounding volumes intersects or contain one another.

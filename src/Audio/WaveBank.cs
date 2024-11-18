@@ -13,7 +13,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 #endregion
 
-namespace Microsoft.Xna.Framework.Audio
+namespace FNA.Audio
 {
 	// http://msdn.microsoft.com/en-us/library/microsoft.xna.framework.audio.wavebank.aspx
 	public class WaveBank : IDisposable

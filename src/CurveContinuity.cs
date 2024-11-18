@@ -11,7 +11,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// Defines the continuity of keys on a <see cref="Curve"/>.

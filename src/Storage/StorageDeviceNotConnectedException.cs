@@ -12,7 +12,7 @@ using System;
 using System.Runtime.InteropServices;
 #endregion
 
-namespace Microsoft.Xna.Framework.Storage
+namespace FNA.Storage
 {
 	public class StorageDeviceNotConnectedException : ExternalException
 	{

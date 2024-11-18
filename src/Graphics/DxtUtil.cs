@@ -11,7 +11,7 @@
 using System.IO;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	internal static class DxtUtil
 	{
@@ -224,7 +224,7 @@ namespace Microsoft.Xna.Framework.Graphics
 					byte r = 0, g = 0, b = 0, a = 0;
 
 					uint index = (lookupTable >> 2 * (4 * blockY + blockX)) & 0x03;
-					
+
 					switch (alphaIndex)
 					{
 						case 0:
@@ -408,7 +408,7 @@ namespace Microsoft.Xna.Framework.Graphics
 				}
 			}
 		}
-		
+
 		private static void ConvertRgb565ToRgb888(ushort color, out byte r, out byte g, out byte b)
 		{
 			int temp;

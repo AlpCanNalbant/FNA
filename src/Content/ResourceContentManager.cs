@@ -13,7 +13,7 @@ using System.IO;
 using System.Resources;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	public class ResourceContentManager : ContentManager
 	{

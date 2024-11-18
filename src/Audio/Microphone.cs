@@ -12,7 +12,7 @@ using System;
 using System.Collections.ObjectModel;
 #endregion
 
-namespace Microsoft.Xna.Framework.Audio
+namespace FNA.Audio
 {
 	public class Microphone
 	{

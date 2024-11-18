@@ -13,7 +13,7 @@ using System.Threading;
 using System.Runtime.InteropServices;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	public class VertexBuffer : GraphicsResource
 	{

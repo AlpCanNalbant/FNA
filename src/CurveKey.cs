@@ -15,7 +15,7 @@
 using System;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// Key point on the <see cref="Curve"/>.

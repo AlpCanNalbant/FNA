@@ -12,7 +12,7 @@ using System;
 using System.ComponentModel;
 #endregion
 
-namespace Microsoft.Xna.Framework.Design
+namespace FNA.Design
 {
 	public class MathTypeConverter : ExpandableObjectConverter
 	{

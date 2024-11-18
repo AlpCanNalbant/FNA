@@ -17,7 +17,7 @@ using System.Diagnostics;
 using System.Text;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	/// <summary>
 	/// Defines a viewing frustum for intersection operations.
@@ -724,4 +724,3 @@ namespace Microsoft.Xna.Framework
 		#endregion
 	}
 }
-

@@ -14,7 +14,7 @@ using System.IO;
 using Microsoft.Xna.Framework.Media;
 #endregion
 
-namespace Microsoft.Xna.Framework.Content
+namespace FNA.Content
 {
 	internal class SongReader : ContentTypeReader<Song>
 	{

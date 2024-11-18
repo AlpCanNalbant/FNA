@@ -12,7 +12,7 @@ using System;
 using System.Runtime.InteropServices;
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics.PackedVector
+namespace FNA.Graphics.PackedVector
 {
 	internal static class HalfTypeHelper
 	{

@@ -18,7 +18,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Input.Touch;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	internal static class FNAPlatform
 	{

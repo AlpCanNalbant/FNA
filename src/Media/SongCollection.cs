@@ -13,7 +13,7 @@ using System.Collections;
 using System.Collections.Generic;
 #endregion
 
-namespace Microsoft.Xna.Framework.Media
+namespace FNA.Media
 {
 	public sealed class SongCollection : IEnumerable<Song>, IEnumerable, IDisposable
 	{

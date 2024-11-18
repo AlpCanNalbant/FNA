@@ -20,7 +20,7 @@ using System.Runtime.CompilerServices;
 using System.Xml;
 #endregion
 
-namespace Microsoft.Xna.Framework
+namespace FNA
 {
 	internal static class FNADllMap
 	{

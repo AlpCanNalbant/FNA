@@ -7,7 +7,7 @@
  */
 #endregion
 
-namespace Microsoft.Xna.Framework.Graphics
+namespace FNA.Graphics
 {
 	/// <summary>
 	/// Defines size for index in <see cref="IndexBuffer"/> and <see cref="DynamicIndexBuffer"/>.
