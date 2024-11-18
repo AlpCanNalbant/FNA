@@ -327,7 +327,7 @@ SRC = \
 	lib/Theorafile/csharp/Theorafile.cs
 
 RESDIR = src/Graphics/Effect/StockEffects/FXB
-RESNAME = Microsoft.Xna.Framework.Graphics.Effect.Resources
+RESNAME = FNA.Graphics.Effect.Resources
 RES = \
 	-resource:$(RESDIR)/AlphaTestEffect.fxb,$(RESNAME).AlphaTestEffect.fxb \
 	-resource:$(RESDIR)/BasicEffect.fxb,$(RESNAME).BasicEffect.fxb \

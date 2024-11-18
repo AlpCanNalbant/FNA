@@ -7,8 +7,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{D321F4A8-C5BE-4B07-9AFD-2D411D27DDF8}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Microsoft.Xna.Framework.Video</RootNamespace>
-    <AssemblyName>Microsoft.Xna.Framework.Video</AssemblyName>
+    <RootNamespace>FNA.Video</RootNamespace>
+    <AssemblyName>FNA.Video</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>

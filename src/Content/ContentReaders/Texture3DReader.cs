@@ -10,7 +10,7 @@
 #region Using Statements
 using System;
 
-using Microsoft.Xna.Framework.Graphics;
+using FNA.Graphics;
 #endregion
 
 namespace FNA.Content

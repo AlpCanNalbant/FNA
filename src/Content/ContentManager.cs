@@ -14,9 +14,9 @@ using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 
-using Microsoft.Xna.Framework.Audio;
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Media;
+using FNA.Audio;
+using FNA.Graphics;
+using FNA.Media;
 #endregion
 
 namespace FNA.Content

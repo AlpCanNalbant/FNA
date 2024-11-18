@@ -121,7 +121,7 @@ namespace FNA.Graphics
 		private static byte[] GetResource(string name)
 		{
 			Stream stream = typeof(Resources).Assembly.GetManifestResourceStream(
-				"Microsoft.Xna.Framework.Graphics.Effect.Resources." + name + ".fxb"
+				"FNA.Graphics.Effect.Resources." + name + ".fxb"
 			);
 			using (MemoryStream ms = new MemoryStream())
 			{

@@ -347,25 +347,25 @@
 	</ItemGroup>
 	<ItemGroup>
 		<EmbeddedResource Include="src\Graphics\Effect\StockEffects\FXB\AlphaTestEffect.fxb">
-			<LogicalName>Microsoft.Xna.Framework.Graphics.Effect.Resources.AlphaTestEffect.fxb</LogicalName>
+			<LogicalName>FNA.Graphics.Effect.Resources.AlphaTestEffect.fxb</LogicalName>
 		</EmbeddedResource>
 		<EmbeddedResource Include="src\Graphics\Effect\StockEffects\FXB\BasicEffect.fxb">
-			<LogicalName>Microsoft.Xna.Framework.Graphics.Effect.Resources.BasicEffect.fxb</LogicalName>
+			<LogicalName>FNA.Graphics.Effect.Resources.BasicEffect.fxb</LogicalName>
 		</EmbeddedResource>
 		<EmbeddedResource Include="src\Graphics\Effect\StockEffects\FXB\DualTextureEffect.fxb">
-			<LogicalName>Microsoft.Xna.Framework.Graphics.Effect.Resources.DualTextureEffect.fxb</LogicalName>
+			<LogicalName>FNA.Graphics.Effect.Resources.DualTextureEffect.fxb</LogicalName>
 		</EmbeddedResource>
 		<EmbeddedResource Include="src\Graphics\Effect\StockEffects\FXB\EnvironmentMapEffect.fxb">
-			<LogicalName>Microsoft.Xna.Framework.Graphics.Effect.Resources.EnvironmentMapEffect.fxb</LogicalName>
+			<LogicalName>FNA.Graphics.Effect.Resources.EnvironmentMapEffect.fxb</LogicalName>
 		</EmbeddedResource>
 		<EmbeddedResource Include="src\Graphics\Effect\StockEffects\FXB\SkinnedEffect.fxb">
-			<LogicalName>Microsoft.Xna.Framework.Graphics.Effect.Resources.SkinnedEffect.fxb</LogicalName>
+			<LogicalName>FNA.Graphics.Effect.Resources.SkinnedEffect.fxb</LogicalName>
 		</EmbeddedResource>
 		<EmbeddedResource Include="src\Graphics\Effect\StockEffects\FXB\SpriteEffect.fxb">
-			<LogicalName>Microsoft.Xna.Framework.Graphics.Effect.Resources.SpriteEffect.fxb</LogicalName>
+			<LogicalName>FNA.Graphics.Effect.Resources.SpriteEffect.fxb</LogicalName>
 		</EmbeddedResource>
 		<EmbeddedResource Include="src\Graphics\Effect\YUVToRGBA\YUVToRGBAEffect.fxb">
-			<LogicalName>Microsoft.Xna.Framework.Graphics.Effect.Resources.YUVToRGBAEffect.fxb</LogicalName>
+			<LogicalName>FNA.Graphics.Effect.Resources.YUVToRGBAEffect.fxb</LogicalName>
 		</EmbeddedResource>
 	</ItemGroup>
 </Project>

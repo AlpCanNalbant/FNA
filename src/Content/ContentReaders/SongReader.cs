@@ -11,7 +11,7 @@
 using System;
 using System.IO;
 
-using Microsoft.Xna.Framework.Media;
+using FNA.Media;
 #endregion
 
 namespace FNA.Content

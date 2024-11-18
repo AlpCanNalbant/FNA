@@ -17,8 +17,8 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Text;
 
-using Microsoft.Xna.Framework.Design;
-using Microsoft.Xna.Framework.Graphics.PackedVector;
+using FNA.Design;
+using FNA.Graphics.PackedVector;
 #endregion
 
 namespace FNA

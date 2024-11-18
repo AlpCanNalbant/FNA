@@ -7,8 +7,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{041B1120-5701-43F0-B2CA-81290099C965}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Microsoft.Xna.Framework.Xact</RootNamespace>
-    <AssemblyName>Microsoft.Xna.Framework.Xact</AssemblyName>
+    <RootNamespace>FNA.Xact</RootNamespace>
+    <AssemblyName>FNA.Xact</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>

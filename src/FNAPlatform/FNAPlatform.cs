@@ -12,10 +12,10 @@ using System;
 using System.IO;
 using System.Collections.Generic;
 
-using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Audio;
-using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework.Input.Touch;
+using FNA.Graphics;
+using FNA.Audio;
+using FNA.Input;
+using FNA.Input.Touch;
 #endregion
 
 namespace FNA

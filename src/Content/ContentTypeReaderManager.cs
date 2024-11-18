@@ -140,12 +140,12 @@ namespace FNA.Content
 				BasicEffectReader hBasicEffectReader = new BasicEffectReader();
 				VertexBufferReader hVertexBufferReader = new VertexBufferReader();
 				AlphaTestEffectReader hAlphaTestEffectReader = new AlphaTestEffectReader();
-				EnumReader<Microsoft.Xna.Framework.Graphics.SpriteEffects> hEnumSpriteEffectsReader = new EnumReader<Graphics.SpriteEffects>();
+				EnumReader<FNA.Graphics.SpriteEffects> hEnumSpriteEffectsReader = new EnumReader<Graphics.SpriteEffects>();
 				ArrayReader<float> hArrayFloatReader = new ArrayReader<float>();
 				ArrayReader<Vector2> hArrayVector2Reader = new ArrayReader<Vector2>();
 				ListReader<Vector2> hListVector2Reader = new ListReader<Vector2>();
 				ArrayReader<Matrix> hArrayMatrixReader = new ArrayReader<Matrix>();
-				EnumReader<Microsoft.Xna.Framework.Graphics.Blend> hEnumBlendReader = new EnumReader<Graphics.Blend>();
+				EnumReader<FNA.Graphics.Blend> hEnumBlendReader = new EnumReader<Graphics.Blend>();
 				NullableReader<Rectangle> hNullableRectReader = new NullableReader<Rectangle>();
 				EffectMaterialReader hEffectMaterialReader = new EffectMaterialReader();
 				ExternalReferenceReader hExternalReferenceReader = new ExternalReferenceReader();
@@ -344,14 +344,14 @@ namespace FNA.Content
 				);
 			}
 			preparedType = preparedType.Replace(
-				", Microsoft.Xna.Framework.Graphics",
+				", FNA.Graphics",
 				string.Format(
 					", {0}",
 					assemblyName
 				)
 			);
 			preparedType = preparedType.Replace(
-				", Microsoft.Xna.Framework.Video",
+				", FNA.Video",
 				string.Format(
 					", {0}",
 					assemblyName

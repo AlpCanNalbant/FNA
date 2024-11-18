@@ -10,7 +10,7 @@
 #region Using Statements
 using System.IO;
 
-using Microsoft.Xna.Framework.Audio;
+using FNA.Audio;
 #endregion
 
 namespace FNA.Content

@@ -10,9 +10,9 @@
 #region Using Statements
 using System.Collections.Generic;
 
-using Microsoft.Xna.Framework.Audio;
-using Microsoft.Xna.Framework.Input.Touch;
-using MediaPlayer = Microsoft.Xna.Framework.Media.MediaPlayer;
+using FNA.Audio;
+using FNA.Input.Touch;
+using MediaPlayer = FNA.Media.MediaPlayer;
 #endregion
 
 namespace FNA

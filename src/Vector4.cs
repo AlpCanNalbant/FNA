@@ -16,7 +16,7 @@ using System;
 using System.ComponentModel;
 using System.Diagnostics;
 
-using Microsoft.Xna.Framework.Design;
+using FNA.Design;
 #endregion
 
 namespace FNA

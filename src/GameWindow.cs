@@ -11,7 +11,7 @@
 using System;
 using System.ComponentModel;
 
-using Microsoft.Xna.Framework.Input;
+using FNA.Input;
 #endregion
 
 namespace FNA

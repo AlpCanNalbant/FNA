@@ -7,8 +7,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{08819388-9A86-4F75-AE6E-5793A15F91E3}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Microsoft.Xna.Framework.Graphics</RootNamespace>
-    <AssemblyName>Microsoft.Xna.Framework.Graphics</AssemblyName>
+    <RootNamespace>FNA.Graphics</RootNamespace>
+    <AssemblyName>FNA.Graphics</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
