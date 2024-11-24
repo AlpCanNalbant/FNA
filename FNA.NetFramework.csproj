@@ -6,7 +6,7 @@
 	<PropertyGroup>
 		<EnableDefaultItems>false</EnableDefaultItems>
 		<AssemblyName>FNA</AssemblyName>
-		<RootNamespace>Microsoft.Xna.Framework</RootNamespace>
+		<RootNamespace>FNA</RootNamespace>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<LangVersion>4</LangVersion>
@@ -141,6 +141,7 @@
 		<Compile Include="src\FNAPlatform\SDL3_FNAPlatform.cs" />
 		<Compile Include="src\FrameworkDispatcher.cs" />
 		<Compile Include="src\Game.cs" />
+		<Compile Include="src\GameAudio.cs" />
 		<Compile Include="src\GameComponent.cs" />
 		<Compile Include="src\GameComponentCollection.cs" />
 		<Compile Include="src\GameComponentCollectionEventArgs.cs" />

@@ -5,7 +5,7 @@ http://xbox.create.msdn.com/en-US/education/catalog/sample/stock_effects
 
 The following changes have been made to accommodate the FNA project:
 
-- The 'StockEffects' namespace is now 'Microsoft.Xna.Framework.Graphics'.
+- The 'StockEffects' namespace is now 'FNA.Graphics'.
 	- The unnecessary using statements have consequently been removed.
 - SpriteEffect is an internal class, rather than public, for XNA4 accuracy.
 - OnApply() uses the 'internal' keyword, to match the internal XNA4 API.

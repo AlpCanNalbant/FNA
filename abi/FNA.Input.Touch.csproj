@@ -5,10 +5,10 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{08819388-9A86-4F75-AE6E-5793A15F91E3}</ProjectGuid>
+    <ProjectGuid>{2780FC6A-807A-4648-B0A3-D040863684F5}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>FNA.Graphics</RootNamespace>
-    <AssemblyName>FNA.Graphics</AssemblyName>
+    <RootNamespace>FNA.Input.Touch</RootNamespace>
+    <AssemblyName>FNA.Input.Touch</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,7 +32,7 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Compile Include="Microsoft.Xna.Framework.Graphics.cs" />
+    <Compile Include="FNA.Input.Touch.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FNA.csproj">

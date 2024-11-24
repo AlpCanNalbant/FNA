@@ -7,7 +7,7 @@ To build, you need FNA as well as FNA.NetStub, for the Xbox Live namespaces.
 
 There are two ways to build:
 
-1. Microsoft.Xna.Framework.sln. This is the recommended path, since FNA and
+1. FNA.sln. This is the recommended path, since FNA and
    FNA.NetStub will be built for you.
 2. Makefile. You need to build FNA and FNA.NetStub first. Then, type `make`!
 

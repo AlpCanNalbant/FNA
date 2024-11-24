@@ -109,10 +109,12 @@ namespace FNA.Content
 
 		public ContentManager(IServiceProvider serviceProvider)
 		{
+			/* We only used this for Audio loading.
 			if (serviceProvider == null)
 			{
 				throw new ArgumentNullException("serviceProvider");
 			}
+			*/
 			ServiceProvider = serviceProvider;
 			RootDirectory = string.Empty;
 			AddContentManager(this);

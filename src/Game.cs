@@ -240,13 +240,17 @@ namespace FNA
 
 		public Game()
 		{
+			/*
 			AppDomain.CurrentDomain.UnhandledException += OnUnhandledException;
 
 			LaunchParameters = new LaunchParameters();
 			Components = new GameComponentCollection();
+			*/
+
 			Services = new GameServiceContainer();
 			Content = new ContentManager(Services);
 
+			/*
 			updateableComponents = new List<IUpdateable>();
 			currentlyUpdatingComponents = new List<IUpdateable>();
 			drawableComponents = new List<IDrawable>();
@@ -266,18 +270,25 @@ namespace FNA
 			hasInitialized = false;
 			suppressDraw = false;
 			isDisposed = false;
+			*/
 
+			/*
 			gameTime = new GameTime();
+			*/
 
+			/*
 			Window = FNAPlatform.CreateWindow();
 			Mouse.WindowHandle = Window.Handle;
 			TouchPanel.WindowHandle = Window.Handle;
 			TextInputEXT.WindowHandle = Window.Handle;
+			*/
 
 			FrameworkDispatcher.Update();
 
+			/*
 			// Ready to run the loop!
 			RunApplication = true;
+			*/
 		}
 
 		#endregion

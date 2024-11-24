@@ -66,10 +66,12 @@ namespace FNA
 				MediaStateChanged = false;
 			}
 
+			/*
 			if (TouchPanel.TouchDeviceExists)
 			{
 				TouchPanel.Update();
 			}
+			*/
 		}
 
 		#endregion

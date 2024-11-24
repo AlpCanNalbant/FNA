@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{35253CE1-C864-4CD3-8249-4D1319748E8F}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Microsoft.Xna.Framework</RootNamespace>
+    <RootNamespace>FNA</RootNamespace>
     <AssemblyName>FNA</AssemblyName>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
@@ -211,6 +211,7 @@
     <Compile Include="src\FNAPlatform\SDL3_FNAPlatform.cs" />
     <Compile Include="src\FrameworkDispatcher.cs" />
     <Compile Include="src\Game.cs" />
+    <Compile Include="src\GameAudio.cs" />
     <Compile Include="src\GameComponent.cs" />
     <Compile Include="src\GameComponentCollection.cs" />
     <Compile Include="src\GameComponentCollectionEventArgs.cs" />

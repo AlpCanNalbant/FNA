@@ -1,0 +1,10 @@
+C:\Users\entel\WindchimeSoftware\KeepLocker\deps\EndGame\ThirdParty\FNA\obj_netstandard\Debug\netstandard2.0\FNA.NetStandard.csproj.AssemblyReference.cache
+C:\Users\entel\WindchimeSoftware\KeepLocker\deps\EndGame\ThirdParty\FNA\obj_netstandard\Debug\netstandard2.0\FNA.NetStandard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\entel\WindchimeSoftware\KeepLocker\deps\EndGame\ThirdParty\FNA\obj_netstandard\Debug\netstandard2.0\FNA.NetStandard.csproj.CoreCompileInputs.cache
+C:\Users\entel\WindchimeSoftware\KeepLocker\deps\EndGame\ThirdParty\FNA\obj_netstandard\Debug\netstandard2.0\FNA.NetStandard.sourcelink.json
+C:\Program Files (x86)\Steam\steamapps\common\Keep Locker\FNA.dll.config
+C:\Program Files (x86)\Steam\steamapps\common\Keep Locker\FNA.deps.json
+C:\Program Files (x86)\Steam\steamapps\common\Keep Locker\FNA.dll
+C:\Program Files (x86)\Steam\steamapps\common\Keep Locker\FNA.pdb
+C:\Users\entel\WindchimeSoftware\KeepLocker\deps\EndGame\ThirdParty\FNA\obj_netstandard\Debug\netstandard2.0\FNA.dll
+C:\Users\entel\WindchimeSoftware\KeepLocker\deps\EndGame\ThirdParty\FNA\obj_netstandard\Debug\netstandard2.0\FNA.pdb

@@ -182,6 +182,7 @@ namespace FNA.Content
 					 * need to decode the following data.
 					 */
 					string originalReaderTypeString = reader.ReadString();
+					originalReaderTypeString = originalReaderTypeString.Replace("Microsoft.Xna.Framework", "FNA");
 
 					Func<ContentTypeReader> readerFunc;
 					if (typeCreators.TryGetValue(originalReaderTypeString, out readerFunc))
@@ -358,7 +359,7 @@ namespace FNA.Content
 				)
 			);
 			preparedType = preparedType.Replace(
-				", Microsoft.Xna.Framework",
+				", FNA",
 				string.Format(
 					", {0}",
 					assemblyName

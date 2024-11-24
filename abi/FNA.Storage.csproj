@@ -32,7 +32,7 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Compile Include="Microsoft.Xna.Framework.Storage.cs" />
+    <Compile Include="FNA.Storage.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FNA.csproj">

@@ -5,10 +5,10 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{041B1120-5701-43F0-B2CA-81290099C965}</ProjectGuid>
+    <ProjectGuid>{AB4D48E9-F8A9-4883-913C-D485922ACE3B}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>FNA.Xact</RootNamespace>
-    <AssemblyName>FNA.Xact</AssemblyName>
+    <RootNamespace>FNA.GamerServices</RootNamespace>
+    <AssemblyName>FNA.GamerServices</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,12 +32,16 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Compile Include="Microsoft.Xna.Framework.Xact.cs" />
+    <Compile Include="FNA.GamerServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FNA.csproj">
       <Project>{35253CE1-C864-4CD3-8249-4D1319748E8F}</Project>
       <Name>FNA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FNA.NetStub\FNA.NetStub.csproj">
+      <Project>{F5328B35-F276-4157-9B69-E06D527C689B}</Project>
+      <Name>FNA.NetStub</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
