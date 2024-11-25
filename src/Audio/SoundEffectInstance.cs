@@ -34,9 +34,12 @@ namespace FNA.Audio
 			}
 			set
 			{
-				if (hasStarted)
+				// (WCS Edit) Don't throw.
+				if (hasStarted && (INTERNAL_looped != value))
 				{
-					throw new InvalidOperationException();
+					Stop();
+					Play();
+					// throw new InvalidOperationException();
 				}
 				INTERNAL_looped = value;
 			}
